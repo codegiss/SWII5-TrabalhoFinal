@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add new Customer</title>
+</head>
+<body>
+	<h1>Add new Customer</h1>
+	
+	<form action="CustomerServlet" method="post">
+		<table>
+			<tr><td>Name:</td><td><input type="text" name="custName"></td></tr>
+			<tr><td>City:</td><td><input type="text" name="city"></td></tr>
+			<tr><td>Grade:</td><td><input type="number" name="grade"></td></tr>
+			<tr><td>Salesman ID:</td><td><input type="number" name="salesmanId"></td></tr>
+			
+			<td><td><input type="submit" value="Save Customer"></td></td>
+		</table>
+	</form>
+	
+	<p><a href="newOrder.html">Create Order</a></p>
+	<p><a href="index.html">Add Salesman</a></p>
+	<p><a href="ViewCustomersServlet">View Customers</a></p>
+	<p><a href="ViewSalesmenServlet">View Salesmen</a></p>
+	<p><a href="ViewOrdersServlet">View Orders</a></p>
+	<p><a href="index.html">Homepage</a></p>
+</body>
+</html>
